@@ -1,0 +1,43 @@
+* {
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+body {
+    height: 500px;
+    width: 400px;
+    background-color: white;
+}
+
+h1 {
+    color: #11d285;
+    font-size: 7vmin;
+    margin: 10vmin;
+}
+
+a {
+    cursor: pointer;
+    padding: 2vmin;
+    border-radius: 1vmin;
+    font-size: 7.5vmin;
+    background-color: #11d285;
+    color: white;
+}
+
+.flexB {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.flexC {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "RAM to Assembly",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "Turning RAM to Assembly",
+  "action": {
+    "default_popup": "src/popup.html"
+  },
+  "icons": {
+    "16": "icon/icon16.png",
+    "48": "icon/icon48.png",
+    "128": "icon/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "run_at": "document_end",
+      "matches": [
+        "https://peterhigginson.co.uk/lmc*"
+      ],
+      "js": [
+        "src/content.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ]
+}
