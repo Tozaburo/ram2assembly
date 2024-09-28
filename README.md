@@ -3,18 +3,30 @@
 </div>
 
 # Chrome Extension - ram2assembly
-This extension makes you able to convert ram input of [Little Man Computer - CPU simulator](https://peterhigginson.co.uk/lmc) to Assembly language.
+This extension allows you to convert RAM input from the [Little Man Computer - CPU simulator](https://peterhigginson.co.uk/lmc) into Assembly language.
 
-## Install
-1. Download the file from github by clicking green "Code" button and then "Download ZIP" button.
+## Installation
+1. Download the file from GitHub by clicking the green "Code" button and then selecting "Download ZIP."
 
 <img width="426" alt="Screenshot" src="https://github.com/user-attachments/assets/90ee2be3-d6df-41aa-9240-164d5c4cde7b">
 
-2. Unzip the file.
+2. Unzip the ZIP file.
 
-3. Go to [chrome://extensions/](chrome://extensions/) and turn on "Developer mode" switch on top right.
+3. Navigate to [chrome://extensions/](chrome://extensions/) and enable "Developer mode" using the toggle switch in the upper right corner.
 
-4. Click "Load Unpacked" button on top left and upload the file that you just download.
+4. Click the "Load Unpacked" button in the upper left corner and select the extracted folder.
 
-## How to use
-Write some code at [Little Man Computer - CPU simulator](https://peterhigginson.co.uk/lmc) using RAM
+## Usage
+1. Write your code using RAM in the [Little Man Computer - CPU simulator](https://peterhigginson.co.uk/lmc).
+   
+<img width="1330" alt="Screenshot" src="https://github.com/user-attachments/assets/eedda470-79a5-4809-ad1f-feb0dbd19b9e">
+
+2. Click on the code area.
+
+<img width="648" alt="Screenshot 0006-09-28 at 17 30 11" src="https://github.com/user-attachments/assets/f8b24835-b400-4026-b3d1-593eb82e27ca">
+
+3. Click the extension icon.
+
+4. Click the "Convert and Download" button.
+
+5. The Assembly file will be downloaded automatically.
